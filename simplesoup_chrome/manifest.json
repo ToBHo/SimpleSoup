@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simplesoup",
+  "description": "Removes duplicate posts from your soup dom.",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://www.soup.io/friends*"],
+      "js": ["jquery-2.0.3.min.js","simplesoup.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions":[
+  "webRequest",
+  "tabs",
+  "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
