@@ -6,4 +6,4 @@ Simply install this addon in your Chrome Browser. Each time you visit your frien
 
 If any errors,like duplicate posts or strange console output, occure don't hesitate to contact me.
 
-An addon for Mozilla firefox is planned for the near future after Chrome works correct for everyone :)
+An addon for Mozilla Firefox is planned for the near future after Chrome works correct for everyone :)
